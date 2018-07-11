@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>Dashboard</title>
+      <link href="files/css//bootstrap.css" rel="stylesheet">
+      <link href="files/css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="files/css/fontface.css" rel="stylesheet">
+      <link href="files/css/font-awesome.css" rel="stylesheet">
+      <link href="files/css/base-admin-3.css" rel="stylesheet">
+      <link href="files/css/base-admin-3-responsive.css" rel="stylesheet">
+      <link href="files/css/signin.css" rel="stylesheet">
+	   <link href="files/css/JQueryui.css" rel="stylesheet">
+   </head>
+   <body>
+      <nav class="navbar navbar-inverse" role="navigation">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+               <span class="sr-only">toggle navigation</span>
+               <i class="icon-cog"></i>
+               </button>
+               <img  class="logo" src="files/images/NSG_logo.png"/><a class="navbar-brand" href="#/themes/base/index.html">National Security Guards</a>
+            </div>
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav navbar-right">
+      
+
+		<li class="dropdown">
+						
+			<a data-toggle="dropdown" class="dropdown-toggle" href="javscript:;">
+				<i class="icon-user"></i> 
+				Capt.Username
+				<b class="caret"></b>
+			</a>
+			
+			<ul class="dropdown-menu">
+				<li><a href="javascript:;">My Profile</a></li>
+				<li class="divider"></li>
+				<li><a href="javascript:;">Logout</a></li>
+			</ul>
+			
+		</li>
+    </ul>
+    
+    <form role="search" class="navbar-form navbar-right">
+      <div class="form-group">
+        <input type="text" placeholder="Search" class="form-control input-sm search-query">
+      </div>
+    </form>
+  </div>
+         </div>
+      </nav>
+      <div class="main">
+      <div class="container">
+	  <div class="">
+            <div class="col-md-12">
+               <div class="widget stacked ">
+                  <div class="widget-header">
+                     <i class="icon-list"></i>
+                     <h3 class="master-header">Event Management System</h3>
+                  </div>
+                  <!-- /widget-header -->
+				  
+                  <div class="widget-content">
+				  <div id="big_stats" class="cf">
+				  <div class="col-sm-8">
+						<div class="col-sm-3 completedbg stat">								
+							<i class="icon-completed"></i> <h4>Completed</h4>
+							<span class="value complete">12</span>								
+						</div> <!-- .stat -->
+						
+						<div class="col-sm-3 pendingbg stat">								
+							<h4>Pending</h4>
+							<span class="value pending">23</span>								
+						</div> <!-- .stat -->
+						
+						<div class="col-sm-3 inprogressbg stat">								
+							<h4>Inprogress</h4>
+							<span class="value inprogress">2</span>								
+						</div> <!-- .stat -->
+						
+						<div class="col-sm-3 onholdbg stat">								
+							<h4>Onhold</h4>
+							<span class="value onhold">13</span>								
+						</div> <!-- .stat -->
+						
+						</div>
+						<div class="col-sm-4">
+						
+						<div id="datepicker-inline" class="hasDatepicker"><div class="ui-datepicker-inline ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" style="display: block;"><div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all"><a title="Prev" data-event="click" data-handler="prev" class="ui-datepicker-prev ui-corner-all"><span class="ui-icon ui-icon-circle-triangle-w">Prev</span></a><a title="Next" data-event="click" data-handler="next" class="ui-datepicker-next ui-corner-all"><span class="ui-icon ui-icon-circle-triangle-e">Next</span></a><div class="ui-datepicker-title"><span class="ui-datepicker-month">April</span>&nbsp;<span class="ui-datepicker-year">2014</span></div></div><table class="ui-datepicker-calendar"><thead><tr><th class="ui-datepicker-week-end"><span title="Sunday">Su</span></th><th><span title="Monday">Mo</span></th><th><span title="Tuesday">Tu</span></th><th><span title="Wednesday">We</span></th><th><span title="Thursday">Th</span></th><th><span title="Friday">Fr</span></th><th class="ui-datepicker-week-end"><span title="Saturday">Sa</span></th></tr></thead><tbody><tr><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">1</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">2</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">3</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">4</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" ui-datepicker-week-end "><a href="#" class="ui-state-default">5</a></td></tr><tr><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" ui-datepicker-week-end "><a href="#" class="ui-state-default">6</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">7</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">8</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" ui-datepicker-days-cell-over  ui-datepicker-current-day ui-datepicker-today"><a href="#" class="ui-state-default ui-state-highlight ui-state-active ui-state-hover">9</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">10</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">11</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" ui-datepicker-week-end "><a href="#" class="ui-state-default">12</a></td></tr><tr><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" ui-datepicker-week-end "><a href="#" class="ui-state-default">13</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">14</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">15</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">16</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">17</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">18</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" ui-datepicker-week-end "><a href="#" class="ui-state-default">19</a></td></tr><tr><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" ui-datepicker-week-end "><a href="#" class="ui-state-default">20</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">21</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">22</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">23</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">24</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">25</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" ui-datepicker-week-end "><a href="#" class="ui-state-default">26</a></td></tr><tr><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" ui-datepicker-week-end "><a href="#" class="ui-state-default">27</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">28</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">29</a></td><td data-year="2014" data-month="3" data-event="click" data-handler="selectDay" class=" "><a href="#" class="ui-state-default">30</a></td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td></tr></tbody></table></div></div>
+				</div>
+					</div>
+					
+						
+					<br/>
+                     <div class="tabbable">
+                        <ul class="nav nav-tabs">
+						<li class="active"><a data-toggle="tab" href="#manage_events">Manage events</a></li>
+                           <li class=""><a data-toggle="tab" href="#Notifications">Notifications</a></li>
+                           
+                           <li class=""><a data-toggle="tab" href="#reports">Reports</a></li>
+                           <li class=""><a data-toggle="tab" href="#Manage_users">Manage users</a></li>
+                        </ul>
+                        <div class="tab-content">
+                           
+                           <div id="reports" class="tab-pane">
+                              <div id="container"   style="width:780px; height: 400px; margin: 0 auto"></div>
+                           </div>
+                           <div id="manage_events" class="tab-pane active">
+                              <ul class="news-items">
+						<li>
+							
+							<div class="news-item-detail">										
+								<a class="news-item-title" href="javascript:;">Duis aute irure dolor in reprehenderit</a>
+								<p class="news-item-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							</div>
+							
+							<div class="news-item-date">
+								<span class="news-item-day"><a href="#">08</a></span>
+								<span class="news-item-month">Mar</span>
+							</div>
+						</li>
+						<li>
+							<div class="news-item-detail">										
+								<a class="news-item-title" href="javascript:;">Duis aute irure dolor in reprehenderit</a>
+								<p class="news-item-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							</div>
+							
+							<div class="news-item-date">
+								<span class="news-item-day"><a href="#">08</a></span>
+								<span class="news-item-month">Mar</span>
+							</div>
+						</li>
+						<li>
+							<div class="news-item-detail">										
+								<a class="news-item-title" href="javascript:;">Duis aute irure dolor in reprehenderit</a>
+								<p class="news-item-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							</div>
+							
+							<div class="news-item-date">
+								<span class="news-item-day"><a href="#">08</a></span>
+								<span class="news-item-month">Mar</span>
+							</div>
+						</li>
+						<li>
+							<div class="news-item-detail">										
+								<a class="news-item-title" href="javascript:;">Duis aute irure dolor in reprehenderit</a>
+								<p class="news-item-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							</div>
+							
+							<div class="news-item-date">
+								<span class="news-item-day"><a href="#">08</a></span>
+								<span class="news-item-month">Mar</span>
+							</div>
+						</li>
+						<li>
+							<div class="news-item-detail">										
+								<a class="news-item-title" href="javascript:;">Duis aute irure dolor in reprehenderit</a>
+								<p class="news-item-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							</div>
+							
+							<div class="news-item-date">
+								<span class="news-item-day"><a href="#">08</a></span>
+								<span class="news-item-month">Mar</span>
+							</div>
+						</li>
+						<li>
+							<div class="news-item-detail">										
+								<a class="news-item-title" href="javascript:;">Duis aute irure dolor in reprehenderit</a>
+								<p class="news-item-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							</div>
+							
+							<div class="news-item-date">
+								<span class="news-item-day"><a href="#">08</a></span>
+								<span class="news-item-month">Mar</span>
+							</div>
+						</li>
+						<li>
+							<div class="news-item-detail">										
+								<a class="news-item-title" href="javascript:;">Duis aute irure dolor in reprehenderit</a>
+								<p class="news-item-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							</div>
+							
+							<div class="news-item-date">
+								<span class="news-item-day"><a href="#">08</a></span>
+								<span class="news-item-month">Mar</span>
+							</div>
+						</li>
+						<li>
+							<div class="news-item-detail">										
+								<a class="news-item-title" href="javascript:;">Duis aute irure dolor in reprehenderit</a>
+								<p class="news-item-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							</div>
+							
+							<div class="news-item-date">
+								<span class="news-item-day"><a href="#">08</a></span>
+								<span class="news-item-month">Mar</span>
+							</div>
+						</li>
+					</ul>
+                           </div>
+                           <div id="Notifications" class="tab-pane ">
+                              <div class="col-lg-12">
+                                <div class="alert alert-success alert-dismissable">
+                              <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                              <strong>well done!</strong> you successfully read <a class="alert-link" href="#">this important alert message</a>.
+                           </div>
+						   <div class="alert alert-info alert-dismissable">
+						  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+						  <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+							</div>
+							<div class="alert alert-warning alert-dismissable">
+						  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+						  <strong>Warning!</strong> Best check yo self, you're <a href="#" class="alert-link">not looking too good</a>.
+							</div>
+							<div class="alert alert-danger alert-dismissable">
+							  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+							  <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+							</div>
+							<div class="alert alert-warning alert-dismissable">
+						  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+						  <strong>Warning!</strong> Best check yo self, you're <a href="#" class="alert-link">not looking too good</a>.
+							</div>
+							<div class="alert alert-info alert-dismissable">
+						  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+						  <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+							</div>
+							<div class="alert alert-danger alert-dismissable">
+							  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+							  <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+							</div>
+							<div class="alert alert-info alert-dismissable">
+						  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+						  <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+							</div>
+							<div class="alert alert-warning alert-dismissable">
+						  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+						  <strong>Warning!</strong> Best check yo self, you're <a href="#" class="alert-link">not looking too good</a>.
+							</div>
+							<div class="alert alert-info alert-dismissable">
+						  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+						  <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+							</div>
+							<div class="alert alert-danger alert-dismissable">
+							  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+							  <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+							</div>
+                              </div>
+                           </div>
+                           <div id="Manage_users" class="tab-pane col-md-12">
+                              <div class="widget stacked widget-table">
+                                 <div class="widget-header">
+                                    <span class="icon-list-alt"></span>
+                                    <h3>top referrers</h3>
+                                 </div>
+                                 <!-- .widget-header -->
+                                 <div class="widget-content">
+                                    <table class="table table-bordered table-striped">
+                                       <thead>
+                                          <tr>
+                                             <th>column1</th>
+                                             <th>column2</th>
+											 <th>column3</th>
+											 <th>column4</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td class="description"><a href="#">http://google.com</a></td>
+                                             <td class="value"><span>1123</span></td>
+											  <td class="description"><a href="#">http://google.com</a></td>
+                                             <td class="value"><span>1123</span></td>
+                                          </tr>
+                                          <tr>
+                                             <td class="description"><a href="#">http://yahoo.com</a></td>
+                                             <td class="value"><span>927</span></td>
+											  <td class="description"><a href="#">http://google.com</a></td>
+                                             <td class="value"><span>1123</span></td>
+                                          </tr>
+                                          <tr>
+                                             <td class="description"><a href="#">http://themeforest.net</a></td>
+                                             <td class="value"><span>834</span></td>
+											  <td class="description"><a href="#">http://google.com</a></td>
+                                             <td class="value"><span>1123</span></td>
+                                          </tr>
+                                          <tr>
+                                             <td class="description"><a href="#">codecanyon.net</a></td>
+                                             <td class="value"><span>625</span></td>
+											  <td class="description"><a href="#">http://google.com</a></td>
+                                             <td class="value"><span>1123</span></td>
+                                          </tr>
+                                          <tr>
+                                             <td class="description"><a href="#">http://graphicriver.net</a></td>
+                                             <td class="value"><span>593</span></td>
+											  <td class="description"><a href="#">http://google.com</a></td>
+                                             <td class="value"><span>1123</span></td>
+                                          </tr>
+                                          <tr>
+                                             <td class="description"><a href="#">http://bing.com</a></td>
+                                             <td class="value"><span>324</span></td>
+											  <td class="description"><a href="#">http://google.com</a></td>
+                                             <td class="value"><span>1123</span></td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
+                                 <!-- .widget-content -->
+                              </div>
+                              <!-- /widget -->	
+                           </div>
+                        </div>
+                     </div>
+                     <!-- /widget-content -->
+                  </div>
+                  <!-- /widget -->
+               </div>
+               <!-- /span12-->
+               
+            </div>
+            <!-- /row -->
+         </div>
+	  </div>
+	  </div>
+      <div class="footer">
+         <div class="container">
+            <div>
+               <div class="col-sm-6" id="footer-copyright">
+                  NSG
+               </div>
+               <div class="col-sm-6" id="footer-terms">
+                  All rights reserved by<a target="_blank" href="#"> &nbsp;Company name</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- le javascript
+         ================================================== -->
+      <!-- placed at the end of the document so the pages load faster -->
+      <script src="files/js/jquery-1.js"></script>
+      <script src="files/js//jquery-ui-1.js"></script>
+      <script src="files/js//bootstrap.js"></script>
+      <script src="files/js//jquery_002.js"></script>
+      <script src="files/js//jquery_003.js"></script>
+      <script src="files/js//jquery.js"></script>
+      <script src="files/js//application.js"></script>
+	   <script src="files/js/jQuery23.js"></script>
+	   <script src="files/js/highcharts.js"></script>
+    <script src="files/js/exporting.js"></script>
+	  <script>
+   $(function () {
+    $('#container').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Heading of the Chart'
+        },
+        subtitle: {
+            text: 'Sub Heading of the Chart'
+        },
+        xAxis: {
+            categories: [
+                'Title1',
+                'Title2',
+                'Title3',
+                'Title4',
+                'Title5',
+                'Title6',
+                'Title7',
+                'Title8',
+                'Title9',
+                'Title10',
+                'Title11',
+                'Title12'
+            ]
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Values'
+            }
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+            footerFormat: '</table>',
+            shared: true,
+            useHTML: true
+        },
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: [{
+            name: 'Tokyo',
+            data: [49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
+
+        },  {
+            name: 'Berlin',
+            data: [42.4, 33.2, 34.5, 39.7, 52.6, 75.5, 57.4, 60.4, 47.6, 39.1, 46.8, 51.1]
+
+        }]
+    });
+});
+</script>
+      <a style="display: none;" href="#top" id="back-to-top"><i class="icon-chevron-up"></i></a>
+   </body>
+</html>

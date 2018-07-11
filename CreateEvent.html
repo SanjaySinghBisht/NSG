@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>Add Update Profile</title>
+      <link href="files/css//bootstrap.css" rel="stylesheet">
+      <link href="files/css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="files/css/fontface.css" rel="stylesheet">
+      <link href="files/css/font-awesome.css" rel="stylesheet">
+      <link href="files/css/base-admin-3.css" rel="stylesheet">
+      <link href="files/css/base-admin-3-responsive.css" rel="stylesheet">
+      <link href="files/css/signin.css" rel="stylesheet">
+   </head>
+   <body>
+      <nav class="navbar navbar-inverse" role="navigation">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+               <span class="sr-only">toggle navigation</span>
+               <i class="icon-cog"></i>
+               </button>
+               <img  class="logo" src="files/images/NSG_logo.png"/><a class="navbar-brand" href="#/themes/base/index.html">National Security Guards</a>
+            </div>
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav navbar-right">
+      
+
+		<li class="dropdown">
+						
+			<a data-toggle="dropdown" class="dropdown-toggle" href="javscript:;">
+				<i class="icon-user"></i> 
+				Capt.Username
+				<b class="caret"></b>
+			</a>
+			
+			<ul class="dropdown-menu">
+				<li><a href="javascript:;">My Profile</a></li>
+				<li class="divider"></li>
+				<li><a href="javascript:;">Logout</a></li>
+			</ul>
+			
+		</li>
+    </ul>
+    
+    <form role="search" class="navbar-form navbar-right">
+      <div class="form-group">
+        <input type="text" placeholder="Search" class="form-control input-sm search-query">
+      </div>
+    </form>
+  </div>
+         </div>
+      </nav>
+      <div class="main">
+      <div class="container">
+         <div>
+            <div class="col-sm-12">
+               <div class="widget stacked">
+                  <div class="widget-header">
+                     <i class="icon-dashboard"></i>
+                     <h3>Add Profile Details</h3>
+                  </div>
+                  <div class="widget-content">
+                    
+                     <div>
+                        <div class="widget big-stats-container stacked">
+                              <div class="widget-header">
+                     <h3>Event Entry</h3>
+                  </div>
+                           <div class="widget-content">
+                              <form action="/" role="form">
+						
+							<div class="form-group">
+							<label class="col-sm-4">Title</label>
+							<div class="col-sm-8">
+								<input type="text" name="input1" placeholder="Title" value="" class="form-control">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-4">Description</label>
+							<div class="col-sm-8">
+								<textarea class="form-control"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-4">Duration</label>
+							<div class="col-sm-8">
+								<input type="text" name="input1" placeholder="Duration" value="" class="form-control">
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="col-sm-4">Place</label>
+							<div class="col-sm-8">
+								<select class="form-control">
+								<option>Value 1</option>
+								<option>Value 2</option>
+								<option>Value 3</option>
+								<option>Value 4</option>
+								<option>Value 5</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-4">Department</label>
+							<div class="col-sm-8">
+								<select class="form-control">
+								<option>Value 1</option>
+								<option>Value 2</option>
+								<option>Value 3</option>
+								<option>Value 4</option>
+								<option>Value 5</option>
+								</select>
+							</div>
+						</div>
+						
+						
+						<div class="clearfix">
+						<button type="submit" class="btn btn-success">Create</button>
+						<button type="submit" class="btn btn-danger">Reset</button>
+						<button type="submit" data-toggle="modal" href="#smallModal" class="btn btn-primary">Add New Duty</button>
+						</div> 
+					</form>
+							  
+                           </div>
+						   
+                           <!-- /widget-content -->
+                        </div><!-- /widget -->
+						
+                     </div>
+					 <div class="table-responsive">
+					  <div class="widget-header">
+                     <h3>Duty List</h3>
+                  </div>
+					<table class="table table-bordered table-hover table-striped">
+					        <thead>
+					          <tr>
+					            <th>Title</th>
+					            <th style="width:200px;">Duty Description</th>
+					            <th>Person Name</th>
+								<th>Deadline </th>
+					            <th></th>
+								<th></th>
+					          </tr>
+					        </thead>
+					        <tbody>
+					          <tr>
+					            <td>Title</td>
+					            <td>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsumLorem ipsum lorem ipsum Lorem ipsum lorem ipsum</td>
+					           <td>Capt.Sanjay</td>
+								<td>12/10/2014</td>
+					            <td><a  data-toggle="modal" href="#smallModal">Edit</a></td>
+								<td><a  data-toggle="modal" href="#smallModal">Delete</a></td>
+					          </tr>
+							   <tr>
+					            <td>Title</td>
+					            <td>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsumLorem ipsum lorem ipsum Lorem ipsum lorem ipsum</td>
+					           <td>Capt.Sanjay</td>
+								<td>12/10/2014</td>
+					            <td><a  data-toggle="modal" href="#smallModal">Edit</a></td>
+								<td><a  data-toggle="modal" href="#smallModal">Delete</a></td>
+					          </tr>
+							   <tr>
+					            <td>Title</td>
+					            <td>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsumLorem ipsum lorem ipsum Lorem ipsum lorem ipsum</td>
+					           <td>Capt.Sanjay</td>
+								<td>12/10/2014</td>
+					            <td><a  data-toggle="modal" href="#smallModal">Edit</a></td>
+								<td><a  data-toggle="modal" href="#smallModal">Delete</a></td>
+					          </tr>
+							   <tr>
+					            <td>Title</td>
+					            <td>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsumLorem ipsum lorem ipsum Lorem ipsum lorem ipsum</td>
+					           <td>Capt.Sanjay</td>
+								<td>12/10/2014</td>
+					            <td><a  data-toggle="modal" href="#smallModal">Edit</a></td>
+								<td><a  data-toggle="modal" href="#smallModal">Delete</a></td>
+					          </tr>
+							   <tr>
+					            <td>Title</td>
+					            <td>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsumLorem ipsum lorem ipsum Lorem ipsum lorem ipsum</td>
+					           <td>Capt.Sanjay</td>
+								<td>12/10/2014</td>
+					            <td><a  data-toggle="modal" href="#smallModal">Edit</a></td>
+								<td><a  data-toggle="modal" href="#smallModal">Delete</a></td>
+					          </tr>
+							  
+					         
+					        </tbody>
+					      </table>
+						  <button type="submit" class="btn btn-success">Submit</button>
+					  </div>
+					  <ul class="pagination">
+            <li><a href="javascript:;">«</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="javascript:;">2</a></li>
+            <li><a href="javascript:;">3</a></li>
+            <li><a href="javascript:;">4</a></li>
+            <li><a href="javascript:;">5</a></li>
+            <li><a href="javascript:;">»</a></li>
+          </ul>
+                     <!-- /span12 -->	
+                  </div>
+               </div>
+            </div>
+            
+            <!-- /span4 -->
+         </div>
+         <!-- /container -->
+      </div>
+      <div class="footer">
+         <div class="container">
+            <div>
+               <div class="col-sm-6" id="footer-copyright">
+                  NSG
+               </div>
+               <div class="col-sm-6" id="footer-terms">
+                  All rights reserved by<a target="_blank" href="#"> &nbsp;Company name</a>
+               </div>
+            </div>
+         </div>
+      </div>
+	  <div aria-hidden="true" style="display: none;" id="smallModal" class="modal fade" tabindex="-1" role="dialog">
+	   <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title">Change Password</h4>
+      </div>
+      <div class="modal-body">
+          <form action="/" role="form" class="col-sm-12">
+						<div>
+							<label>Old password</label>
+							<input type="text" name="input1" value="" placeholder="Old password" class="form-control ">
+						</div> 
+						<div>
+							<label>New Password</label>
+							<input type="password" name="input1" value="" placeholder="New Password" class="form-control">
+						</div> 
+						<div>
+							<label>Confirm Password</label>
+							<input type="password" name="input1" value="" placeholder="Confirm Password" class="form-control">
+						</div> 
+						
+						 						
+						<br/>
+						<div>
+						<button type="submit" class="btn login-btn btn-theme">Update Password</button>
+						</div> 
+						<div class="clearfix"></div>
+					</form>
+      </div>
+
+     </div>
+    </div>
+	</div>
+      <!-- le javascript
+         ================================================== -->
+      <!-- placed at the end of the document so the pages load faster -->
+      <script src="files/js/jquery-1.js"></script>
+      <script src="files/js//jquery-ui-1.js"></script>
+      <script src="files/js//bootstrap.js"></script>
+      <script src="files/js//jquery_002.js"></script>
+      <script src="files/js//jquery_003.js"></script>
+      <script src="files/js//jquery.js"></script>
+      <script src="files/js//application.js"></script>
+      <a style="display: none;" href="#top" id="back-to-top"><i class="icon-chevron-up"></i></a>
+   </body>
+</html>
